@@ -13,6 +13,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0; }
+html{
+    font-size: 62.5%;
+}
 
 /**********************       HEADER   *******************/
 .navbar{
@@ -34,7 +37,7 @@
 .header-wp img{
     width:1261px;
 }
-/**********************      BODY INDEX   *******************/
+/**********************     HTML/INDEX  *******************/
 .main--homePage{
     margin-left: 10px;
 }
@@ -53,4 +56,12 @@ footer{
 .col h3{
     font-family:'Island Moments',sans-serif ;
     color: var(--darkBrown-HF);
+}
+/**********************    HTML/PERSONAJES ****************/
+.main--personajesHP{
+    margin: 20px auto 0 10px;
+
+}
+.personajes--img img{
+    width: 150px;
 }
