@@ -25,8 +25,9 @@ html{
 .navbar-brand img{
     width: 200px;
 }
-.nav-link{ /*! no funcionaaa */
+.nav-item a{ /*! no funcionaaa */
     color: var(--gold-GF);
+    font-size: 1.4rem;
 }
 .navbar-nav li{
     display: flex;
@@ -53,12 +54,17 @@ footer{
 .col{
     padding: 10px;
 }
-.col h3{
+.footer--title{
     font-family:'Island Moments',sans-serif ;
     color: var(--darkBrown-HF);
+    font-size: 2.8rem;
 }
+.footer--img img{
+    width:50px;
+}
+
 /**********************    HTML/PERSONAJES ****************/
-.main--personajesHP{
+.main--section{
     margin: 20px auto 0 10px;
 
 }
