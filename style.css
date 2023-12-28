@@ -1,0 +1,56 @@
+:root{
+    --darkRed-GF:#740001;
+    --gold-GF:#eeba30;
+    --darkGreen-SL:#1a472a;
+    --lightGray-SL:#aaaaaa;
+    --darkBlue-RV:#0e1a40;
+    --lightGray-RV:#bebebe;
+    --yellow-HF:#ecb939;
+    --darkBrown-HF:#372e29;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; }
+
+/**********************       HEADER   *******************/
+.navbar{
+    background-color: var(--darkRed-GF);
+    
+}
+.navbar-brand img{
+    width: 200px;
+}
+.nav-link{ /*! no funcionaaa */
+    color: var(--gold-GF);
+}
+.navbar-nav li{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.header-wp img{
+    width:1261px;
+}
+/**********************      BODY INDEX   *******************/
+.main--homePage{
+    margin-left: 10px;
+}
+.title--gold{
+    font-family:'Island Moments',sans-serif ;
+    color: var(--gold-GF);
+}
+
+/**********************      FOOTER   *******************/
+footer{
+    background-color: #f5ebe0;
+}
+.col{
+    padding: 10px;
+}
+.col h3{
+    font-family:'Island Moments',sans-serif ;
+    color: var(--darkBrown-HF);
+}

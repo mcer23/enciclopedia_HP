@@ -6,7 +6,7 @@
     <title>Enciclopedia HP</title>
     <link rel="shortcut icon" href="../assets/ico/hp_ico.png" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Island+Moments">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -28,15 +28,8 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="peliculas.html">Películas</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="videojuegos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Videojuegos
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Nintendo</a></li>
-                      <li><a class="dropdown-item" href="#">Playstation</a></li>
-                      <li><a class="dropdown-item" href="#">Xbox</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="videojuegos.html">videojuegos</a>
                   </li>
                 </ul>
               </div>
@@ -44,11 +37,60 @@
           </nav>
     </header>
     <main>
+      <section>
+        <h1>Videojuegos</h1>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Año</th>
+              <th scope="col">Juego</th>
+              <th scope="col">Plataformas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2002</th>
+              <td><img src="../assets/png/camaraSecretos_PS2.png" alt="">
+                Harry Potter y la Cámara de los Secretos </td>
+                <td>PS2, GCN, XBOX </td>
+            </tr>
+            <tr>
+              <th scope="row">2003</th>
+              <td><img src="../assets/png/piedraFilosofal_PS2.png" alt="">
+                Harry Potter y la Piedra Filosofal </td>
+                <td>PS2, GCN, XBOX </td>
+            </tr>
+            <tr>
+              <th scope="row">2004</th>
+              <td><img src="../assets/png/azkaban_PS2.png" alt="">
+                Harry Potter y el Prisionero de Azkaban </td>
+                <td>PS2, GCN, XBOX, PC </td>
+            </tr>
+            <tr>
+              <th scope="row">2007</th>
+              <td><img src="../assets/png/ordenFenix_ps2.png" alt="">Harry Potter and the Order of the Phoenix </td>
+                <td>PS2, WII, PC, NDS, PSP </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
         
     </main>
     <footer>
-      <p>Hecho por: Melissa Estrada y Julen Rocha</p>
-      <p>p8-Servicios de la nube</p>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Síguenos</h3>
+            <a href="#"><img src="../assets/ico/fb_ico.png" alt="acceso a facebook"></a>
+            <a href="#"><img src="../assets/ico/ig_ico.png" alt="acceso a instagram"></a>
+          </div>
+          <div class="col-md-8">
+          </div>
+          <div class="col">
+            <img src="../assets/png/hp_logo_hp.png" alt="logo de harry potter">
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
