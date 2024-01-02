@@ -18,15 +18,37 @@ html{
 }
 
 /**********************       HEADER   *******************/
-.navbar{
+.navbar-red{
     background-color: var(--darkRed-GF);
-    
+}
+.navitem-gold a{
+    color: var(--gold-GF);
+    font-size: 1.4rem;
+}
+.navbar-blue{
+    background-color: var(--darkBlue-RV);
+}
+.navbar-yellow{
+    background-color: var(--yellow-HF);
+}
+.navitem-brown a{
+    color:var(--darkBrown-HF);
+    font-size: 1.4rem;
+}
+.navbar-green{
+    background-color: var(--darkGreen-SL)
+}
+.navitem-gray a{
+    color: var(--lightGray-SL);
+    font-size: 1.4rem;
+}
+.navbar-gray{
+    background-color: var(--lightGray-RV);
 }
 .navbar-brand img{
     width: 200px;
 }
-.nav-item a{ /*! no funcionaaa */
-    color: var(--gold-GF);
+.nav-item a{ 
     font-size: 1.4rem;
 }
 .navbar-nav li{
@@ -45,6 +67,14 @@ html{
 .title--gold{
     font-family:'Island Moments',sans-serif ;
     color: var(--gold-GF);
+    font-size: 2.8rem;
+}
+.column--p p{
+    font-size: 1.4rem;
+}
+/***********    VIDEOJUEGOS    *********************/
+.column--p{
+    font-size: 1.4rem;
 }
 
 /**********************      FOOTER   *******************/
@@ -70,4 +100,15 @@ footer{
 }
 .personajes--img img{
     width: 150px;
+}
+
+/**********************    HTML/LIBROS ****************/
+.main--section h1{
+    font-size: 3.6rem;
+    margin: 20px auto 0 10px;
+}
+.main-section--info .column--p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

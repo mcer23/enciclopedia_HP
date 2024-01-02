@@ -10,94 +10,150 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../assets/png/hp_logo.png" alt="logo harry potter"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="personajes.html">Personajes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="libros.html">Libros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="peliculas.html">Películas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="videojuegos.html">videojuegos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-blue navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../assets/png/hp_logo.png" alt="logo harry potter"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item navitem-gray">
+                <a class="nav-link" href="../html/personajes.html">Personajes</a>
+              </li>
+              <li class="nav-item navitem-gray">
+                <a class="nav-link" href="../html/libros.html">Libros</a>
+              </li>
+              <li class="nav-item navitem-gray">
+                <a class="nav-link"  href="../html/peliculas.html">Películas</a>
+              </li>
+              <li class="nav-item navitem-gray">
+                <a class="nav-link" href="../html/videojuegos.html">Videojuegos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
     <main>
-      <section>
-        <h1>Películas</h1>
-        <div class="pelicula--HP1">
-          <h2>Harry Potter y la Piedra filosofal</h2>
-          <img src="../assets/png/hp_piedra.png" alt="HP y la priedra filosofal">
-          <p>2001</p>
-          <p>Dirigida por Chris Columbus</p>
-          <p>Sinopsis: Harry Potter es un niño huérfano criado por su tío Vernon y su tía Petunia que lo odian. Desde que era pequeño, estos siempre le han contado que sus padres murieron en un accidente de coche.
-            El día de su decimoprimer cumpleaños, Harry recibe la inesperada visita de un hombre gigantesco de nombre Rubeus Hagrid. Este le revela que es, de hecho, hijo de dos poderosos magos y que él también posee extraordinarios poderes.
-            Lleno de alegría, el chico acepta ir a estudiar a Hogwarts, el famoso colegio de magia y hechicería. Por fin, tiene la oportunidad de hacer amigos. Odiado por Severus Snape, profesor de Pociones, y protegido por Albus Dumbledore, director del colegio, Harry intentará dilucidar el misterio de la piedra filosofal.</p>
+      <section class="main--section column--p">
+        <h1 class="title--gold">Películas</h1>
+
+      <div class="main-section--info">    <!-- R-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y la Piedra filosofal (2001)</h2>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por Chris Columbus</i></p> <br>
+                <p>Sinopsis: Harry Potter es un niño huérfano criado por su tío Vernon y su tía Petunia que lo odian. Desde que era pequeño, estos siempre le han contado que sus padres murieron en un accidente de coche. <br>
+                  El día de su decimoprimer cumpleaños, Harry recibe la inesperada visita de un hombre gigantesco de nombre Rubeus Hagrid. Este le revela que es, de hecho, hijo de dos poderosos magos y que él también posee extraordinarios poderes.
+                  Lleno de alegría, el chico acepta ir a estudiar a Hogwarts, el famoso colegio de magia y hechicería. Por fin, tiene la oportunidad de hacer amigos. Odiado por Severus Snape, profesor de Pociones, y protegido por Albus Dumbledore, director del colegio, Harry intentará dilucidar el misterio de la piedra filosofal.</p></div>
+              <div class="col"></div>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_piedra.png" alt="HP y la priedra filosofal"></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP2">
-          <h2>Harry Potter y la Camara Secreta</h2>
-          <img src="../assets/png/hp_camara.png" alt="HP y la camara secreta">
-          <p>2002</p>
-          <p>Dirigida por Chris Columbus</p>
-          <p>Sinopsis: Una noche que su tío Vernon, su tía Petunia y su primo Dudley han invitado a gente importante a cenar, Harry Potter está obligado a pasar la noche en su cuarto. Dobby, un elfo, hace entonces aparición. Le anuncia que terribles peligros acechan el colegio Hogwarts y que no debe volver en septiembre. Harry no quiere creerle.
-            Pero en cuanto vuelve al colegio, Harry oye una voz maligna. Esta le cuenta que la temible y legendaria cámara secreta se ha vuelto a abrir para que el heredero de Slytherin pueda sembrar el caos en Hogwarts. Las víctimas, encontradas petrificadas por una fuerza misteriosa, se suceden en los pasillos del colegio, sin que los profesores - ni siquiera el popular Gilderoy Lockhart - consigan poner fin a la amenaza. Con la ayuda de Ron y Hermione, Harry debe actuar lo más rápido posible para salvar Hogwarts.</p>
+
+        <div class="main-section--info"> <!-- L-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y la Camara Secreta (2002)</h2>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_camara.png" alt="HP y la camara secreta"></div>
+              <div class="col"></div>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por Chris Columbus</i></p> <br>
+                <p>Sinopsis: Una noche que su tío Vernon, su tía Petunia y su primo Dudley han invitado a gente importante a cenar, Harry Potter está obligado a pasar la noche en su cuarto. Dobby, un elfo, hace entonces aparición. Le anuncia que terribles peligros acechan el colegio Hogwarts y que no debe volver en septiembre. Harry no quiere creerle. <br>
+                  Pero en cuanto vuelve al colegio, Harry oye una voz maligna. Esta le cuenta que la temible y legendaria cámara secreta se ha vuelto a abrir para que el heredero de Slytherin pueda sembrar el caos en Hogwarts. Las víctimas, encontradas petrificadas por una fuerza misteriosa, se suceden en los pasillos del colegio, sin que los profesores - ni siquiera el popular Gilderoy Lockhart - consigan poner fin a la amenaza. Con la ayuda de Ron y Hermione, Harry debe actuar lo más rápido posible para salvar Hogwarts.</p></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP3">
-          <h2>Harry Potter y el Prisionero de Azkaban</h2>
-          <img src="../assets/png/hp_azcakaban.png" alt="HP y el prisionero de askaban">
-          <p>2004</p>
-          <p>Dirigida por Alfonso Cuarón</p>
-          <p>Sinopsis: La tercera entrega de la saga Harry Potter nos cuenta el transcurso del tercer año del protagonista en el colegio Hogwarts. Al inicio de este, Potter descubre algunas novedades; por ejemplo, que Sirius Black, uno de los asesinos de Lord Voldemort, se ha escapado de Azkaban y que todos se hallan preocupados por si este llegara a acabar con el joven Harry. A pesar de que en el colegio se toman fuertes medidas de seguridad para evitar la tragedia y se colocan dementores (criaturas que ejercen de carceleros en la prisión de Azkaban) alrededor de todo el edificio, el mago terminará entablando una relación con el prófugo.</p>
+
+        <div class="main-section--info"><!-- R-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y el Prisionero de Azkaban (2004)</h2>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por Alfonso Cuarón</i></p> <br>
+                <p>Sinopsis: La tercera entrega de la saga Harry Potter nos cuenta el transcurso del tercer año del protagonista en el colegio Hogwarts. Al inicio de este, Potter descubre algunas novedades; por ejemplo, que Sirius Black, uno de los asesinos de Lord Voldemort, se ha escapado de Azkaban y que todos se hallan preocupados por si este llegara a acabar con el joven Harry. A pesar de que en el colegio se toman fuertes medidas de seguridad para evitar la tragedia y se colocan dementores (criaturas que ejercen de carceleros en la prisión de Azkaban) alrededor de todo el edificio, el mago terminará entablando una relación con el prófugo.</p></div>
+              <div class="col"></div>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_azcakaban.png" alt="HP y el prisionero de askaban"></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP4">
-          <h2>Harry Potter y el Cáliz de Fuego</h2>
-          <img src="../assets/png/hp_caliz.png" alt="HP y el caliz de fuego">
-          <p>2005</p>
-          <p>Dirigida por Mike Newell</p>
-          <p>Sinopsis: Harry Potter empieza a tener sueños  donde escucha como Lord Voldemort conspira junto con Peter Pettigrew y un chico joven que también se encuentra en la casa. A todo esto, Howards se prepara para el Torneo de los Tres magos, donde participan las tres escuelas de magia más famosas de Europa: Hogwarts, Beauxbatons y Durmstrang. Existe una ley que establece que para participar en estas pruebas se debe tener, al menos, 17 años. Sin embargo, una mano misteriosa provoca que Harry, con tan solo 14 años, sea elegido para participar. Aunque Dumbledore y Minerva McGonagall se oponen, dejan que el joven participe hasta que se aclare el asunto y se sepa porque no se han respetado las reglas. También asignan al nuevo profesor de artes oscuras, Alastor Moody, a que vigile a Harry hasta que finalice el torneo.
-          <br> Sirius Black, padrino de Harry Potter, advierte al joven de que no puede ser casualidad lo que ha ocurrido, sospechando que el director de Durmstrang, antiguo mortífago, haya preparado una trampa en cuyo trasfondo puede estar Voldemort.</p>
+
+        <div class="main-section--info"> <!-- L-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y el Cáliz de Fuego (2005)</h2>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_caliz.png" alt="HP y el caliz de fuego"></div>
+              <div class="col"></div>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por Mike Newell</i></p> <br>
+                <p>Sinopsis: Harry Potter empieza a tener sueños  donde escucha como Lord Voldemort conspira junto con Peter Pettigrew y un chico joven que también se encuentra en la casa. A todo esto, Howards se prepara para el Torneo de los Tres magos, donde participan las tres escuelas de magia más famosas de Europa: Hogwarts, Beauxbatons y Durmstrang. Existe una ley que establece que para participar en estas pruebas se debe tener, al menos, 17 años. Sin embargo, una mano misteriosa provoca que Harry, con tan solo 14 años, sea elegido para participar. Aunque Dumbledore y Minerva McGonagall se oponen, dejan que el joven participe hasta que se aclare el asunto y se sepa porque no se han respetado las reglas. También asignan al nuevo profesor de artes oscuras, Alastor Moody, a que vigile a Harry hasta que finalice el torneo.
+                  <br> Sirius Black, padrino de Harry Potter, advierte al joven de que no puede ser casualidad lo que ha ocurrido, sospechando que el director de Durmstrang, antiguo mortífago, haya preparado una trampa en cuyo trasfondo puede estar Voldemort.</p></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP5">
-          <h2>Harry Potter y la Orden del Fénix</h2>
-          <img src="../assets/png/hp_orden.png" alt="HP y la orden del fenix">
-          <p>2007</p>
-          <p>Dirigida por David Yates</p>
-          <p>Sinopsis: Al comienzo de su quinto año de estudios en Hogwarts, Harry Potter descubre que la comunidad de magos no parece creerse el regreso de Voldemort, convencida por una campaña de desinformación orquestada por el Ministro de la Magia, Cornelius Fudge. Para mantener el colegio vigilado, Fudge manda a Hogwarts a un nuevo profesor de Defensa Contra las Artes Oscuras, Dolores Umbridge, encargada de hacer respetar el orden en el colegio y supervisar los actos y gestos de Dumbledore.br <br>Sin tratar de ocultar su gran desinterés por los alumnos del curso, la autoproclamada Suma Inquisidora de Hogwarts también parece estar decidida a hacer lo que sea para humillar a Harry. Rodeado de sus amigos Ron y Hermione, crea un grupo llamado "El Ejército de Dumbledore" al que enseña el arte de la defensa contra las artes oscuras, preparándolo para la guerra que se avecina. <br>'Harry Potter y la Orden del Fénix' es la quinta película de la saga 'Harry Potter', adaptación de las novelas homónimas de J. K. Rowling.</p>
+
+        <div class="main-section--info"><!-- R-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y la Orden del Fénix (2007)</h2>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por David Yates</i></p> <br>
+                <p>Sinopsis: Al comienzo de su quinto año de estudios en Hogwarts, Harry Potter descubre que la comunidad de magos no parece creerse el regreso de Voldemort, convencida por una campaña de desinformación orquestada por el Ministro de la Magia, Cornelius Fudge. Para mantener el colegio vigilado, Fudge manda a Hogwarts a un nuevo profesor de Defensa Contra las Artes Oscuras, Dolores Umbridge, encargada de hacer respetar el orden en el colegio y supervisar los actos y gestos de Dumbledore.br <br>Sin tratar de ocultar su gran desinterés por los alumnos del curso, la autoproclamada Suma Inquisidora de Hogwarts también parece estar decidida a hacer lo que sea para humillar a Harry. Rodeado de sus amigos Ron y Hermione, crea un grupo llamado "El Ejército de Dumbledore" al que enseña el arte de la defensa contra las artes oscuras, preparándolo para la guerra que se avecina.</p></div>
+              <div class="col"></div>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_orden.png" alt="HP y la orden del fenix"></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP6">
-          <h2>Harry Potter y el Misterio del Príncipe</h2>
-          <img src="../assets/png/hp_principe.png" alt="HP y el principe mestizo">
-          <p>2009</p>
-          <p>Dirigida por David Yates</p>
-          <p>Sinopsis: La sombra demoniaca de Voldemort se cierne cada vez más sobre el universo de los Muggle y el mundo de la magia. Hogwarts ha dejado de ser un remanso de paz, el peligro ronda en el corazón del castillo... Pero Dumbledore está más decidido que nunca a preparar a Harry para su combate final, ahora inminente. Juntos, el viejo maestro y el joven mago van a intentar romper las defensas de Voldemort. Para ayudarle en esta delicada empresa, Dumbledore va a acosar y manipular a su antiguo colega, el profesor Horace Slughorn, al que cree en posesión de una información vital sobre el joven Voldemort. Pero otro "mal" acecha este año a los estudiantes: ¡la edad del pavo! A Harry cada vez le gusta más Ginny, lo que no deja indiferente a su rival, Dean Thomas; Lavender Brown le ha echado el ojo a Ron, pero se ha olvidado del poder "mágico" de los bombones de Romilda Vane; Hermione, muerta de celos, decide ocultar sus sentimientos cueste lo que cueste. El amor se ha apoderado de todos - menos de uno. Un estudiante parece librarse de su efecto. En la sombra, persigue con tesón un objetivo tan misterioso como inquietante... hasta que la inevitable tragedia sacude Hogwarts para siempre...</p>
+
+        <div class="main-section--info"> <!-- L-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y el Misterio del Príncipe (2009)</h2>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_principe.png" alt="HP y el principe mestizo"></div>
+              <div class="col"></div>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por David Yates</i></p> <br>
+                <p>Sinopsis: La sombra demoniaca de Voldemort se cierne cada vez más sobre el universo de los Muggle y el mundo de la magia. Hogwarts ha dejado de ser un remanso de paz, el peligro ronda en el corazón del castillo... Pero Dumbledore está más decidido que nunca a preparar a Harry para su combate final, ahora inminente. Juntos, el viejo maestro y el joven mago van a intentar romper las defensas de Voldemort. Para ayudarle en esta delicada empresa, Dumbledore va a acosar y manipular a su antiguo colega, el profesor Horace Slughorn, al que cree en posesión de una información vital sobre el joven Voldemort. Pero otro "mal" acecha este año a los estudiantes: ¡la edad del pavo! A Harry cada vez le gusta más Ginny, lo que no deja indiferente a su rival, Dean Thomas; Lavender Brown le ha echado el ojo a Ron, pero se ha olvidado del poder "mágico" de los bombones de Romilda Vane; Hermione, muerta de celos, decide ocultar sus sentimientos cueste lo que cueste. El amor se ha apoderado de todos - menos de uno. Un estudiante parece librarse de su efecto. En la sombra, persigue con tesón un objetivo tan misterioso como inquietante... hasta que la inevitable tragedia sacude Hogwarts para siempre...</p></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP7">
-          <h2>Harry Potter y las Reliquias de la Muerte parte 1</h2>
-          <img src="../assets/png/hp_reliquias.png" alt="HP y las reliquias">
-          <p>2010</p>
-          <p>Dirigida por David Yates</p>
-          <p>Sinopsis: Las Reliquias de la Muerte - Parte I es la primera mitad de la adaptación cinematográfica del libro homónimo de J.K Rowling que pone fin a las aventuras del mago más famoso del mundo. <br>En esta ocasión, Harry Potter (Daniel Radcliffe) y sus inseparables amigos Ron (Rupert Grint) y Hermione (Emma Watson) tendrán que cargar sobre sus hombros con la tarea más difícil que un mago puede afrontar: destruir los horrocruxes que aún quedan en el mundo para poner fin al reinado de Lord Voldemort (Ralph Fiennes). Harry, Ron y Hermione tienen que recorrer Inglaterra casi a ciegas en busca de los objetos que hacen al Señor Tenebroso más longevo. Pero el poder del lado oscuro no para de aumentar y los acólitos de El que no debe ser nombrado se cuentan ya por miles, por lo que Harry tendrá que recurrir a todas las enseñanzas y consejos que Dumbledore le transmitió antes de su muerte. ¿Será capaz Harry de cambiar el destino del mundo mágico?</p> 
+
+        <div class="main-section--info"><!-- R-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y las Reliquias de la Muerte parte 1 (2010)</h2>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por David Yates</i></p> <br>
+                <p>Sinopsis: Las Reliquias de la Muerte - Parte I es la primera mitad de la adaptación cinematográfica del libro homónimo de J.K Rowling que pone fin a las aventuras del mago más famoso del mundo. <br>En esta ocasión, Harry Potter (Daniel Radcliffe) y sus inseparables amigos Ron (Rupert Grint) y Hermione (Emma Watson) tendrán que cargar sobre sus hombros con la tarea más difícil que un mago puede afrontar: destruir los horrocruxes que aún quedan en el mundo para poner fin al reinado de Lord Voldemort (Ralph Fiennes). Harry, Ron y Hermione tienen que recorrer Inglaterra casi a ciegas en busca de los objetos que hacen al Señor Tenebroso más longevo. Pero el poder del lado oscuro no para de aumentar y los acólitos de El que no debe ser nombrado se cuentan ya por miles, por lo que Harry tendrá que recurrir a todas las enseñanzas y consejos que Dumbledore le transmitió antes de su muerte. ¿Será capaz Harry de cambiar el destino del mundo mágico?</p></div>
+              <div class="col"></div>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_reliquias.png" alt="HP y las reliquias"></div>
+            </div>
+          </div>
         </div>
-        <div class="pelicula--HP8">
-          <h2>Harry Potter y las Reliquias de la Muerte parte 2</h2>
-          <img src="../assets/png/hp_reliquias2.png" alt="HP y las reliquias">
-          <p>2011</p>
-          <p>Dirigida por David Yates</p>
-          <p>Sinopsis: Al igual que en la primera parte de esta última entrega cinematográfica inspirada en los libros superventas de la autora J.K. Rowling, Harry Potter, Hermione y Ron continúan intentando dar con el paradero de los Horrocruxes, los pedazos de alma que Voldemort escondió en diversos objetos relacionados con su vida para conseguir su mayor deseo: la inmortalidad. Es su única oportunidad para que Harry, 'El Elegido', tenga alguna posibilidad de acabar con "El que no debe ser nombrado" y de librar al mundo de la magia y de los 'muggles' de un futuro oscuro y aterrador. El problema reside en que ninguno sabe dónde están. <br>Después de que el fallecido Albus Dumbledore acabara con el anillo de Marvolo Gaunt y de que Harry y Ron eliminaran el diario de Tom Riddle y el relicario de Salazar Slytherin, respectivamente, sólo quedan cuatro Horrocruxes pero, ¿qué aspecto tienen? Nuestros protagonistas, de nuevo interpretados por Daniel Radcliffe, Rupert Grint y Emma Watson, intentarán desvelar el misterioso cuento sobre los tres hermanos que les relató Xenophilius Lovegood -los poseedores de la Varita de Saúco, la Piedra de Resurrección y la Capa de Invisibilidad-, se infiltrarán en Gringotts -el banco de los magos- recurriendo a la poción multijugos y protegerán Hogwarts de un ejército de Mortífagos que amenaza la paz de ambos universos. <br>En esta segunda parte, también dirigida por David Yates, sabremos qué forma tienen el resto de los Horrocruxes (la copa de Helga Hufflepuff, la Diadema de Rowena Ravenclaw, Nagini y el propio Harry Potter) y, entre otras novedades, descubriremos por fin la verdadera lealtad de Severus Snape. Además, como en el libro, la saga concluye con un epílogo que nos transporta 19 años después de la Batalla contra Voldemort y sus secuaces, ambientada donde empezó todo: el andén 9¾ de la estación King's Cross de Londres. ¿Quién habrá sobrevivido y a quién echaremos de menos?</p>
+
+        <div class="main-section--info"> <!-- L-->
+          <div class="container">
+            <div class="row">
+              <h2 class="title--gold">Harry Potter y las Reliquias de la Muerte parte 2 (2011)</h2>
+              <div class="col personajes--img">
+                <img src="../assets/png/hp_reliquias2.png" alt="HP y las reliquias"></div>
+              <div class="col"></div>
+              <div class="col-md-8 column--p">
+                <p><i>Dirigida por David Yates</i></p> <br>
+                <p>Sinopsis: Al igual que en la primera parte de esta última entrega cinematográfica inspirada en los libros superventas de la autora J.K. Rowling, Harry Potter, Hermione y Ron continúan intentando dar con el paradero de los Horrocruxes, los pedazos de alma que Voldemort escondió en diversos objetos relacionados con su vida para conseguir su mayor deseo: la inmortalidad. Es su única oportunidad para que Harry, 'El Elegido', tenga alguna posibilidad de acabar con "El que no debe ser nombrado" y de librar al mundo de la magia y de los 'muggles' de un futuro oscuro y aterrador. El problema reside en que ninguno sabe dónde están. <br>Después de que el fallecido Albus Dumbledore acabara con el anillo de Marvolo Gaunt y de que Harry y Ron eliminaran el diario de Tom Riddle y el relicario de Salazar Slytherin, respectivamente, sólo quedan cuatro Horrocruxes pero, ¿qué aspecto tienen? Nuestros protagonistas, de nuevo interpretados por Daniel Radcliffe, Rupert Grint y Emma Watson, intentarán desvelar el misterioso cuento sobre los tres hermanos que les relató Xenophilius Lovegood -los poseedores de la Varita de Saúco, la Piedra de Resurrección y la Capa de Invisibilidad-, se infiltrarán en Gringotts -el banco de los magos- recurriendo a la poción multijugos y protegerán Hogwarts de un ejército de Mortífagos que amenaza la paz de ambos universos. <br>En esta segunda parte, también dirigida por David Yates, sabremos qué forma tienen el resto de los Horrocruxes (la copa de Helga Hufflepuff, la Diadema de Rowena Ravenclaw, Nagini y el propio Harry Potter) y, entre otras novedades, descubriremos por fin la verdadera lealtad de Severus Snape.</p></div>
+            </div>
+          </div>
         </div>
       </section>
         
